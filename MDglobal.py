@@ -9,7 +9,8 @@
 # of the global protein and of its individual chains. It also calculates
 # the interaction frequency between each Amino Acid (AA) and the AAs of a reference chain
 # If the user asks (-Matrice yes), it returns the RMSD matrix for heatmap generation
-# Input : reference and simulation pdb, proteins must have the same origin coordinates
+# Input : reference and simulation pdb, proteins must have the same origin coordinates. Name of the reference chain
+# Output : a txt file with RMSDs, a txt file for interaction frequencies
 
 ###==========================================================###
 
