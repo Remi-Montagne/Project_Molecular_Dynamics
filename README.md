@@ -1,6 +1,8 @@
 ##################################################################
 #                   THE CONTEXT
 ##################################################################
+
+
 The goal of this program is to study the sRNP H/ACA complex
 
 This complex catalyzes isomerisation of uridin into pseudo-uridin, which is important for RNA structure.
@@ -12,7 +14,8 @@ The project was to study global and local changes using RMSD and frequency of in
 ##################################################################
 #                   THE PROGRAMM
 ##################################################################
-\n
+
+
 This program aims to processes a 3D simulation of a given protein.
 
 More precisely, it calculates the RMSD of the protein and of its chains.
@@ -27,7 +30,9 @@ They have a modular structure and both call the MDtools.py module, which must be
 ##################################################################
 #                      USAGE
 ##################################################################
-\n
+
+
+
 MDglobal.py -pdbref -pdb -chaine [-seuil] [-dist] [-RMSD] [-Matrice] [-ofreq] [-oRMSD]
 
 
